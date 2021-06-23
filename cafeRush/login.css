@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.5)), url(pic/janko-ferlic-h9Iq22JJlGk-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#log {
+    align-items: center;
+}
+
+.row {
+    background-color: rgb(241, 200, 145);
+    opacity: 0.7;
+    border-radius: 30px;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+
+.imglogo {
+    width: 10%;
+}

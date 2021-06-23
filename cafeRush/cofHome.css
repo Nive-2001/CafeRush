@@ -1,0 +1,162 @@
+/* $desktop:1200px;
+$laptop:1024px;
+$tablet:760px;
+$phone:480px; */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-weight:600 ;
+   
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.5)), url(pic/janko-ferlic-h9Iq22JJlGk-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+
+    /* margin-right: 50%; */
+    display: block;
+    align-items: center;
+    width: 100%;
+    /* padding: 30px; */
+    /* margin: 30px; */
+    justify-content: space-around;
+}
+
+#con {
+    display: block;
+    width: 100%;
+}
+
+}
+
+.navbar-brand {
+    font-family: 'Pangolin', cursive;
+    font-size: 2em;
+}
+
+#navbarNavAltMarkup {
+    margin-left: 45%;
+}
+
+.nav-link {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.nav-link:hover {
+    background-color: #B4846C;
+    border-radius: 15px;
+}
+
+.intro {
+    margin: 10%;
+    width: 50%;
+    flex: 2;
+    order: 1;
+}
+
+#con {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    /* margin-right: 50%; */
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    /* padding: 30px; */
+    /* margin: 30px; */
+    /* margin-left: 0%; */
+    justify-content: space-around;
+    
+}
+
+/* .aboutpic {
+    display: flex;
+    align-items: center;
+} */
+
+.shape1 {
+    margin-top: 10%;
+}
+
+.shape {
+    background-color: #cc9b6d;
+    width: 20rem;
+    height: 20rem;
+    /* position: absolute; */
+    border-radius: 45% 21% 63% 19% / 45% 100% 34% 85%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#subs {
+    flex: 2;
+    order: 2;
+}
+
+#con1 {
+    font-size: 1.5em;
+}
+
+#mail {
+    background-color: #cc9b6d;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+#submit {
+    margin-left: 40px;
+    font-size: 1rem;
+    float: right;
+    margin-right: 20px;
+}
+
+span #con1 {
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+}
+
+@media (max-width:468px) {
+    #con1 {
+        font-size: 0.5em;
+    }
+    span #con1 {
+        font-weight: bold;
+    }
+    div.conatiner {
+        width: 100%;
+    }
+}
+
+section.cta {
+    background-color: #cc9b6d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin:40px;
+    margin-left: 70px;
+    border-radius:5px ;
+    width:90%;
+}
+
+#ent {
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+#foo{
+    padding: 40px;
+}
